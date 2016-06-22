@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Assignment 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+				$("p").bind("dblclick", function(){  
+				  $( "<p>double-click event</p><br>"  ).appendTo( "body" );  
+				}); 
+				$("p").bind("click", function(){  
+				   $( "<p>click event</p><br>").appendTo( "body" );  
+				});  
+				
+		});
+	</script>
+</head>
+<body>
+	<p>Click me!</p>
+</body> 
+</body>
+</html>
